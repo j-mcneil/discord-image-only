@@ -1,0 +1,26 @@
+{
+  "name": "discord-image-only",
+  "version": "1.0.0",
+  "description": "Discord bot to remove all post that are not just image data",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js --out-dir dist",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "discord",
+    "image",
+    "bot"
+  ],
+  "author": "jmcneil",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "ramda": "^0.26.1",
+    "rxjs": "^6.5.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
